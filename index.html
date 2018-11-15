@@ -4,115 +4,143 @@
     <meta charset="utf-8">
     <title>BusyBus</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://use.fontawesome.com/37471687aa.js"></script>
   </head>
   <body>
     <nav>
-      <div class="navigation">
-        <form class="search-bar">
-              <input type="text" placeholder="Search.." name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
+      <section class="navigation">
+        <div class="status-bar">
+          <img src="images/base.png" alt="status" width="100%">
+        </div>
+        <div class="search-bar">
+            <img src="images/search-2.png" alt="search" width="100%">
+        </div>
         <div class="arrow-left">
           <i class="fa fa-chevron-left fa-inverse fa-2x" aria-hidden="true"></i>
         </div>
-        <div class="bus-stop">
+        <div class="stop">
           <h1>Washington St./State St.</h1>
         </div>
-      </div>
+      </section>
     </nav>
 
     <div class="map">
       <img src="images/busybusmap.png" alt="street map" width="100%">
     </div>
     <div class="bus-info">
-      <div class="container">
+      <section class="direction">
         <div class="bus-direction">
           <h2>Eastbound</h2>
         </div>
-        <div class="bus-line">
-            <h2>60</h2>
+        <ul class="bus-line">
+          <li class="number">
+            <h2>60</h2><br>
             <h3> > Randolph/Harbor Dr </h3>
-        </div>
-        <div class="bus-frequency">
-          <h2>Every 20 minutes</h2>
-        </div>
-        <div class="bus-line">
-            <h2>124</h2>
+          </li>
+          <li class="bus-frequency">
+            <h2>9:30am</h2><br>
+            <p>Every 20 minutes</p>
+          </li>
+        </ul>
+      <ul class="bus-line">
+        <li class="number">
+            <h2>124</h2><br>
             <h3>> Navy Pier</h3>
-        </div>
-        <div class="bus-frequency">
-          <h2>Every 10 minutes</h2>
-        </div>
-      </div>
-      <div class="container">
+        </li>
+        <li class="bus-frequency">
+          <h2>9:43am</h2><br>
+          <p>Every 10 minutes</p>
+        </li>
+      </ul>
+      </section>
+      <section class="direction">
         <div class="bus-direction">
           <h2>Northbound</h2>
         </div>
-        <div class="bus-line">
-            <h2>151</h2>
-            <h3>> Devon/Clark</h3>
-        </div>
-        <div class="bus-frequency">
-          <h2>Every 16 minutes</h2>
-        </div>
+        <ul class="bus-line">
+          <li class="number">
+            <h2>151</h2><br>
+            <h3> > Devon/Clark </h3>
+          </li>
+          <li class="bus-frequency">
+            <h2>9:40am</h2><br>
+            <p>Every 16 minutes</p>
+          </li>
+        </ul>
+      </section>
+      <section class="direction">
         <div class="bus-direction">
           <h2>Southbound</h2>
         </div>
-        <div class="bus-line">
-            <h2>J14</h2>
-            <h3>> 103rd/Stony Island</h3>
-        </div>
-        <div class="bus-frequency">
-          <h2>Every 15 minutes</h2>
-        </div>
-        <div class="bus-line">
-            <h2>124</h2>
+        <ul class="bus-line">
+          <li class="number">
+            <h2>J14</h2><br>
+            <h3> > 103rd/Stony Island</h3>
+          </li>
+          <li class="bus-frequency">
+            <h2>9:55am</h2><br>
+            <p>Every 15 minutes</p>
+          </li>
+        </ul>
+      <ul class="bus-line">
+        <li class="number">
+            <h2>124</h2><br>
             <h3>> Navy Pier</h3>
-        </div>
-        <div class="bus-frequency">
-          <h2>Every 10 minutes</h2>
-        </div>
-      </div>
-      <div class="container">
+        </li>
+        <li class="bus-frequency">
+          <h2>9:53am</h2><br>
+          <p>Every 10 minutes</p>
+        </li>
+      </ul>
+      </section>
+      <section class="direction">
         <div class="bus-direction">
           <h2>Reroute</h2>
         </div>
-        <div class="bus-line">
-            <h2>6x</h2>
+        <ul class="bus-line">
+          <li class="number">
+            <h2>6x</h2><br>
             <h3>> Jackson Park Express</h3>
-        </div>
-        <div class="bus-frequency">
-          <h2>N/A</h2>
-        </div>
-      </div>
-      <div class="container">
+          </li>
+          <li class="bus-frequency">
+            <h2>N/A</h2><br>
+          </li>
+        </ul>
+      </section>
+      <section class="direction">
         <div class="bus-direction">
-          <h2>Out of service</h2>
+          <h2>Out of Service</h2>
         </div>
-        <div class="bus-line">
-            <h2>4</h2>
-            <h3>> Cottage Grove</h3>
-        </div>
-        <div class="bus-frequency">
-          <h2>Resumes 12:10am</h2>
-        </div>
-        <div class="bus-line">
-            <h2>20</h2>
+        <ul class="bus-line">
+          <li class="number">
+            <h2>4</h2><br>
+            <h3> > Cottage Grove </h3>
+          </li>
+          <li class="bus-frequency">
+            <h2>Resumes 12:10pm</h2><br>
+          </li>
+        </ul>
+      <ul class="bus-line">
+        <li class="number">
+            <h2>20</h2><br>
             <h3>> Madison</h3>
-        </div>
-        <div class="bus-frequency">
-          <h2>Resumes 12:10 am</h2>
-        </div>
-        <div class="bus-line">
-            <h2>157</h2>
+        </li>
+        <li class="bus-frequency">
+          <h2>Resumes 12:10pm</h2><br>
+        </li>
+      </ul>
+      <ul class="bus-line">
+        <li class="number">
+            <h2>157</h2><br>
             <h3>> Streeterville/Taylor</h3>
-        </div>
-        <div class="bus-frequency">
-          <h2>Resumes 6:00 am</h2>
-        </div>
-      </div>
+        </li>
+        <li class="bus-frequency">
+          <h2>Resumes 6:00pm</h2><br>
+        </li>
+      </ul>
+      </section>
     </div>
   </body>
 </html>
