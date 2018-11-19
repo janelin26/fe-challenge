@@ -3,6 +3,11 @@
 }
 
 body {
+  font-family: sans-serif, "roboto";
+  color: darkgrey;
+}
+
+.container{
   margin: 0 auto;
 }
 
