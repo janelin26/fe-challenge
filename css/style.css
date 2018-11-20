@@ -81,6 +81,7 @@ h3{
 h4{
   font-style: italic;
   font-size: 22px;
+  line-height: 100%
 }
 
 .bus-direction h2{
@@ -119,6 +120,7 @@ h4{
 
 .bus-frequency {
   line-height: 100%;
+  text-align: right;
   float: right;
   width: 38%;
   font-weight: normal;
@@ -131,5 +133,5 @@ h4{
 .bus-info {
   margin-top: 0px;
   font-family: sans-serif, "roboto";
-  color: #8C8C8C;
+  color: #666666;
 }
